@@ -1,19 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ConnectWallte/>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue';
-
+import ConnectWallte from './components/ConnectWallteExample.vue';
 export default {
-  name: 'App',
-  components: {
-    HelloWorld,
+    components: {
+        ConnectWallte,
   },
-};
+}
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
